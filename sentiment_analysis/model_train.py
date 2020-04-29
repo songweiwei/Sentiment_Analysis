@@ -72,7 +72,7 @@ def model_train(input_shape, filepath, model_save_path):
     train_x, test_x, train_y, test_y = train_test_split(x, y, test_size = 0.1, random_state = 42)
 
     # 模型输入参数，需要自己根据需要调整
-    n_units = 100
+    n_units = 100           #隐藏层的参数
     batch_size = 32
     epochs = 5
     output_dim = 20
